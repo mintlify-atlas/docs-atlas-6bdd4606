@@ -1,0 +1,127 @@
+{
+  "projectType": "saas",
+  "projectName": "GPU Cloud Platform",
+  "projectDescription": "White-label GPU cloud platform for AI/ML workloads with compute, tools, and tenant administration",
+  "theme": "aspen",
+  "primaryColor": "#2563eb",
+  "lightColor": "#3b82f6",
+  "darkColor": "#1e40af",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction"
+            ]
+          },
+          {
+            "group": "AI Compute",
+            "pages": [
+              "compute/bare-metal/overview",
+              "compute/bare-metal/use-cases",
+              "compute/bare-metal/capabilities",
+              "compute/bare-metal/configurations",
+              "compute/bare-metal/metrics",
+              "compute/virtual-machines/overview",
+              "compute/virtual-machines/use-cases",
+              "compute/virtual-machines/capabilities",
+              "compute/virtual-machines/configurations",
+              "compute/virtual-machines/metrics",
+              "compute/serverless-pods/overview",
+              "compute/serverless-pods/configuration",
+              "compute/kubernetes/overview",
+              "compute/kubernetes/capabilities",
+              "compute/kubernetes/configuration"
+            ]
+          },
+          {
+            "group": "AI Tools & Applications",
+            "pages": [
+              "tools/jupyter-notebooks/overview",
+              "tools/jupyter-notebooks/configuration",
+              "tools/inference/overview",
+              "tools/inference/configuration"
+            ]
+          },
+          {
+            "group": "End Users",
+            "pages": [
+              "users/overview",
+              "users/access",
+              "users/workspaces"
+            ]
+          },
+          {
+            "group": "Tenant Administration",
+            "pages": [
+              "admin/organizations",
+              "admin/multi-organizations",
+              "admin/access-control",
+              "admin/projects",
+              "admin/quota-management",
+              "admin/users",
+              "admin/groups",
+              "admin/audit-logs"
+            ]
+          },
+          {
+            "group": "Single Sign-On (SSO)",
+            "pages": [
+              "admin/sso/overview",
+              "admin/sso/adfs",
+              "admin/sso/authentik",
+              "admin/sso/aws-sso",
+              "admin/sso/entra-id",
+              "admin/sso/duo",
+              "admin/sso/google-workspace",
+              "admin/sso/keycloak",
+              "admin/sso/okta",
+              "admin/sso/ping-one"
+            ]
+          },
+          {
+            "group": "SIEM Integration",
+            "pages": [
+              "admin/siem/overview",
+              "admin/siem/cloudwatch",
+              "admin/siem/datadog",
+              "admin/siem/splunk",
+              "admin/siem/sumologic"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Bare metal GPU servers with H100, A100, L40S support",
+    "GPU-enabled virtual machines with flexible configurations",
+    "Managed Kubernetes clusters optimized for AI workloads",
+    "Serverless pods for isolated containerized workloads",
+    "Jupyter notebooks with instant GPU access",
+    "LLM inference with vLLM and hourly metering",
+    "Multi-tenant workspace management",
+    "SSO integration with major identity providers",
+    "SIEM integration for security monitoring",
+    "Real-time metrics and monitoring dashboards",
+    "Per-second billing and metering",
+    "Self-service portal for end users"
+  ],
+  "publicApiSurface": [
+    "Bare Metal Server provisioning",
+    "Virtual Machine management",
+    "Managed Kubernetes cluster creation",
+    "Serverless Pod deployment",
+    "Jupyter Notebook instances",
+    "Inference service deployment",
+    "User and group management",
+    "Organization and project administration",
+    "SSO configuration (SAML 2.0)",
+    "SIEM integration endpoints",
+    "Workspace management",
+    "Quota and billing management"
+  ]
+}
